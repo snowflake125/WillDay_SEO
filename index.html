@@ -44,6 +44,15 @@
     <p>Создано для команды SEO. Все права защищены &copy; 2024</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script>
+	function toggleSection(element) {
+    const ul = element.nextElementSibling;
+    if (ul.style.display === "block") {
+      ul.style.display = "none";
+    } else {
+      ul.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>
