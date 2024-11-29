@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>WillDay</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Доступ к папкам SEO команды</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-	<a href="dsadasdas">href</a>
+  <header>
+    <h1>📂 Лендинг для SEO команды</h1>
+    <p>Ваш быстрый доступ ко всем необходимым документам.</p>
+  </header>
+  
+  <main>
+    <section>
+      <h2 onclick="toggleSection(this)">📋 Основные папки</h2>
+      <ul class="collapsible">
+        <li><a href="https://drive.google.com/open?id=1e1CxUCjr7e9gkIwVEmOob94C46OH2KPy&usp=drive_copy" target="_blank"><i class="fas fa-folder"></i> Проекты</a></li>
+        <li><a href="https://drive.google.com/open?id=1OkHC0onpXXn0a20k4S6RI7YekU_28mRP&usp=drive_copy" target="_blank"><i class="fas fa-book"></i> Обучение</a></li>
+        <li><a href="https://drive.google.com/open?id=1UpNGz0f6T5rJNy5rzRRG1iMjWrag6BCI&usp=drive_copy" target="_blank"><i class="fas fa-chart-line"></i> Стратегии</a></li>
+        <li><a href="https://drive.google.com/open?id=1UHIp8cACv7TdcOi1edzK9Zj7VUsGFANC&usp=drive_copy" target="_blank"><i class="fas fa-star"></i> Публичные Рекомендации</a></li>
+        <li><a href="https://drive.google.com/open?id=1Zvrh3_DhfPnIu7Wqkm3eHUgS7QRxQdyF&usp=drive_copy" target="_blank"><i class="fas fa-user-friends"></i> Карты Эмпатии</a></li>
+        <li><a href="https://drive.google.com/open?id=1FcpSqGedl96zbDPQ9WtHnXqv1OQgCo7z&usp=drive_copy" target="_blank"><i class="fas fa-file-alt"></i> (В разработке) ТЗ для статей</a></li>
+        <li><a href="https://drive.google.com/open?id=1iM9JHAOhT6DFOL0aiGeMzKFSs7mVq-d9&usp=drive_copy" target="_blank"><i class="fas fa-images"></i> Лицензии к фото</a></li>
+        <li><a href="https://drive.google.com/open?id=1-IcEfepjCb2uJgLczTrqM9b6jZ-kJc3ZTqzDCjqHozw&usp=drive_copy" target="_blank"><i class="fas fa-clock"></i> Регламент по учету часов</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 onclick="toggleSection(this)">📂 Внутри "Проектов"</h2>
+      <ul class="collapsible">
+        <li><a href="https://drive.google.com/open?id=118L1v6Xuba-PoEvrp5_LqYmG1afbxGYMwsuOhQmRwrg&usp=drive_copy" target="_blank"><i class="fas fa-pencil-alt"></i> Шаблон для паспорта сайта</a></li>
+        <li><a href="https://drive.google.com/open?id=1kHZJWbmCTJuI3CMITwA_ZdmQx3_58qHVGpVI3Fu7lO8&usp=drive_copy" target="_blank"><i class="fas fa-folder"></i> Регламент по папке с проектами</a></li>
+        <li><a href="https://drive.google.com/open?id=1jC62HNN0GOzOkNL9m7XEpStopecCZSiozaUu-acb7I8&usp=drive_copy" target="_blank"><i class="fas fa-search"></i> SEO Проекты</a></li>
+        <li><a href="https://drive.google.com/open?id=1VoJVi60NNMM4IMkbm3WGS3QHk5FyfkCi&usp=drive_copy" target="_blank"><i class="fas fa-user"></i> Сергей Романыч</a></li>
+        <li><a href="https://drive.google.com/open?id=1tcrDLMVHFu8x-y0KUUI2yy420cAXXmtg&usp=drive_copy" target="_blank"><i class="fas fa-user"></i> Максим Валерич</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Создано для команды SEO. Все права защищены &copy; 2024</p>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
